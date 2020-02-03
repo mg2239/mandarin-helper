@@ -1,0 +1,1191 @@
+{
+    "1": [
+        {
+            "c": "一",
+            "p": "yī",
+            "h": "one"
+        },
+        {
+            "c": "二",
+            "p": "èr",
+            "h": "two"
+        },
+        {
+            "c": "三",
+            "p": "sān",
+            "h": "three"
+        },
+        {
+            "c": "四",
+            "p": "sì",
+            "h": "four"
+        },
+        {
+            "c": "五",
+            "p": "wŭ",
+            "h": "five"
+        },
+        {
+            "c": "六",
+            "p": "liù",
+            "h": "six"
+        },
+        {
+            "c": "七",
+            "p": "qī",
+            "h": "seven"
+        },
+        {
+            "c": "八",
+            "p": "bā",
+            "h": "eight"
+        },
+        {
+            "c": "九",
+            "p": "jiŭ",
+            "h": "nine"
+        },
+        {
+            "c": "十",
+            "p": "shí",
+            "h": "ten"
+        }
+    ],
+    "2": [
+        {
+            "c": "你",
+            "p": "nĭ",
+            "h": "you"
+        },
+        {
+            "c": "好",
+            "p": "hăo",
+            "h": "good; fine"
+        },
+        {
+            "c": "早",
+            "p": "zăo",
+            "h": "early; “good morning”"
+        },
+        {
+            "c": "您",
+            "p": "nín",
+            "h": "you (polite)"
+        },
+        {
+            "c": "老",
+            "p": "lăo",
+            "h": "old"
+        },
+        {
+            "c": "师",
+            "p": "shī",
+            "h": "S teacher"
+        },
+        {
+            "c": "再",
+            "p": "zài",
+            "h": "again; 再見= “goodbye”"
+        },
+        {
+            "c": "见",
+            "p": "jiàn",
+            "h": "to meet; perception; 再見= “goodbye”*"
+        },
+        {
+            "c": "王",
+            "p": "Wáng",
+            "h": "surname; “king”"
+        }
+    ],
+    "3": [
+        {
+            "c": "李",
+            "p": "Lĭ",
+            "h": "surname; “plum”"
+        },
+        {
+            "c": "周",
+            "p": "Zhōu",
+            "h": "surname; Chinese dynasty name"
+        },
+        {
+            "c": "对",
+            "p": "duì",
+            "h": "S correct, right"
+        },
+        {
+            "c": "不",
+            "p": "bù",
+            "h": "negative adverb"
+        },
+        {
+            "c": "起",
+            "p": "qĭ",
+            "h": "to rise"
+        },
+        {
+            "c": "没",
+            "p": "méi",
+            "h": "negative adverb"
+        },
+        {
+            "c": "关",
+            "p": "guān",
+            "h": "S to close; relevance"
+        },
+        {
+            "c": "系",
+            "p": "xì",
+            "h": "S relation (关系)"
+        },
+        {
+            "c": "谢",
+            "p": "xiè",
+            "h": "“Thank you;” to thank*"
+        }
+    ],
+    "4": [
+        {
+            "c": "很",
+            "p": "hěn",
+            "h": "very"
+        },
+        {
+            "c": "给",
+            "p": "gěi",
+            "h": "to give*"
+        },
+        {
+            "c": "我",
+            "p": "wŏ",
+            "h": "I; me"
+        },
+        {
+            "c": "他",
+            "p": "tā",
+            "h": "he; him"
+        },
+        {
+            "c": "她",
+            "p": "tā",
+            "h": "she; her"
+        },
+        {
+            "c": "忙",
+            "p": "máng",
+            "h": "busy"
+        },
+        {
+            "c": "累",
+            "p": "lèi",
+            "h": "tired"
+        },
+        {
+            "c": "们",
+            "p": "men",
+            "h": "plural suffix†"
+        },
+        {
+            "c": "也",
+            "p": "yě",
+            "h": "also"
+        }
+    ],
+    "5": [
+        {
+            "c": "都",
+            "p": "dōu",
+            "h": "all"
+        },
+        {
+            "c": "高",
+            "p": "gāo",
+            "h": "tall; happy"
+        },
+        {
+            "c": "兴",
+            "p": "xìng",
+            "h": "S happy （高興）; excited"
+        },
+        {
+            "c": "有",
+            "p": "yŏu",
+            "h": "to have"
+        },
+        {
+            "c": "点",
+            "p": "diăn",
+            "h": "S a bit; a little"
+        },
+        {
+            "c": "儿",
+            "p": "ér",
+            "h": "S suffix; son (兒子)"
+        },
+        {
+            "c": "饿",
+            "p": "è",
+            "h": "hungry*"
+        },
+        {
+            "c": "呢",
+            "p": "ne",
+            "h": "question particle; aspect particle"
+        }
+    ],
+    "6": [
+        {
+            "c": "今",
+            "p": "jīn",
+            "h": "today"
+        },
+        {
+            "c": "天",
+            "p": "tiān",
+            "h": "day; sky; heaven"
+        },
+        {
+            "c": "明",
+            "p": "míng",
+            "h": "tomorrow"
+        },
+        {
+            "c": "昨",
+            "p": "zuó",
+            "h": "yesterday"
+        },
+        {
+            "c": "气",
+            "p": "qì",
+            "h": "S weather （天氣）"
+        },
+        {
+            "c": "冷",
+            "p": "lěng",
+            "h": "cold"
+        },
+        {
+            "c": "热",
+            "p": "rè",
+            "h": "S hot"
+        },
+        {
+            "c": "了",
+            "p": "le",
+            "h": "aspect particle"
+        },
+        {
+            "c": "太",
+            "p": "tài",
+            "h": "too; excessively"
+        }
+    ],
+    "7": [
+        {
+            "c": "还",
+            "p": "hái",
+            "h": "S still; yet"
+        },
+        {
+            "c": "会",
+            "p": "huì",
+            "h": "S modal for future; to know how to V."
+        },
+        {
+            "c": "年",
+            "p": "nián",
+            "h": "year"
+        },
+        {
+            "c": "月",
+            "p": "yuè",
+            "h": "month"
+        },
+        {
+            "c": "日",
+            "p": "rì",
+            "h": "day of the month (written)"
+        },
+        {
+            "c": "号",
+            "p": "hào",
+            "h": "S day of the month (spoken)"
+        },
+        {
+            "c": "星",
+            "p": "xīng",
+            "h": "star; week"
+        },
+        {
+            "c": "期",
+            "p": "qī",
+            "h": "period; week"
+        }
+    ],
+    "8": [
+        {
+            "c": "以",
+            "p": "yĭ",
+            "h": "demarcates time periods:"
+        },
+        {
+            "c": "前",
+            "p": "qián",
+            "h": "before; in front of"
+        },
+        {
+            "c": "现",
+            "p": "xiàn",
+            "h": "S now (現在)"
+        },
+        {
+            "c": "在",
+            "p": "zài",
+            "h": "now(現在); locator verb"
+        },
+        {
+            "c": "吃",
+            "p": "chī",
+            "h": "to eat"
+        },
+        {
+            "c": "饭",
+            "p": "fàn",
+            "h": "food; meals; cooked rice"
+        },
+        {
+            "c": "应",
+            "p": "yīng",
+            "h": "S should （應該）"
+        },
+        {
+            "c": "该",
+            "p": "gāi",
+            "h": "should （應該）"
+        }
+    ],
+    "9": [
+        {
+            "c": "最",
+            "p": "zuì",
+            "h": "superlative prefix"
+        },
+        {
+            "c": "近",
+            "p": "jìn",
+            "h": "near; lately (最近)"
+        },
+        {
+            "c": "怎",
+            "p": "zěn",
+            "h": "how"
+        },
+        {
+            "c": "么",
+            "p": "me",
+            "h": "S QW suffix（怎麽、什麽）"
+        },
+        {
+            "c": "样",
+            "p": "yàng",
+            "h": "S kind, type; way; appearance"
+        },
+        {
+            "c": "可",
+            "p": "kě",
+            "h": "can; may (可以); but (可是)"
+        },
+        {
+            "c": "行",
+            "p": "xíng",
+            "h": "to be workable; to be OK"
+        },
+        {
+            "c": "每",
+            "p": "měi",
+            "h": "prefix: each"
+        }
+    ],
+    "10": [
+        {
+            "c": "请",
+            "p": "qĭng",
+            "h": "please; to invite"
+        },
+        {
+            "c": "问",
+            "p": "wèn",
+            "h": "to ask (for information)"
+        },
+        {
+            "c": "贵",
+            "p": "guì",
+            "h": "S honorable; expensive*"
+        },
+        {
+            "c": "姓",
+            "p": "xìng",
+            "h": "surname; to be surnamed"
+        },
+        {
+            "c": "叫",
+            "p": "jiào",
+            "h": "to call (someone by a name); to be called"
+        },
+        {
+            "c": "什",
+            "p": "shén",
+            "h": "S what （什麽）"
+        },
+        {
+            "c": "名",
+            "p": "míng",
+            "h": "name (full name or personal name)"
+        },
+        {
+            "c": "字",
+            "p": "zì",
+            "h": "name; word; character"
+        },
+        {
+            "c": "林",
+            "p": "Lín",
+            "h": "Surname, \"woods\""
+        }
+    ],
+    "11": [
+        {
+            "c": "小",
+            "p": "xiăo",
+            "h": "young; little"
+        },
+        {
+            "c": "朋",
+            "p": "péng",
+            "h": "friend （朋友）"
+        },
+        {
+            "c": "友",
+            "p": "yŏu",
+            "h": "friend（朋友）"
+        },
+        {
+            "c": "是",
+            "p": "shì",
+            "h": "to be"
+        },
+        {
+            "c": "这",
+            "p": "zhè/zhèi",
+            "h": "S this"
+        },
+        {
+            "c": "那",
+            "p": "nà/nèi",
+            "h": "that"
+        },
+        {
+            "c": "的",
+            "p": "de",
+            "h": "noun particle"
+        },
+        {
+            "c": "张",
+            "p": "Zhāng",
+            "h": "S surname; MW for square flat items"
+        }
+    ],
+    "12": [
+        {
+            "c": "吧",
+            "p": "ba",
+            "h": "question particle"
+        },
+        {
+            "c": "哪",
+            "p": "nă/něi",
+            "h": "QW prefix: “which”"
+        },
+        {
+            "c": "国",
+            "p": "guó",
+            "h": "S country; nation"
+        },
+        {
+            "c": "人",
+            "p": "rén",
+            "h": "person"
+        },
+        {
+            "c": "中",
+            "p": "Zhōng",
+            "h": "China; middle"
+        },
+        {
+            "c": "美",
+            "p": "měi",
+            "h": "U.S.; beautiful"
+        },
+        {
+            "c": "英",
+            "p": "yīng",
+            "h": "United Kingdom; brave"
+        },
+        {
+            "c": "本",
+            "p": "běn",
+            "h": "MW for books； Japan = 日本"
+        },
+        {
+            "c": "谁",
+            "p": "shéi",
+            "h": "who"
+        }
+    ],
+    "13": [
+        {
+            "c": "韩",
+            "p": "Hán",
+            "h": "S Korea; surname"
+        },
+        {
+            "c": "法",
+            "p": "fă",
+            "h": "France; law; method"
+        },
+        {
+            "c": "德",
+            "p": "dé",
+            "h": "Germany; virtue"
+        },
+        {
+            "c": "北",
+            "p": "běi",
+            "h": "north"
+        },
+        {
+            "c": "南",
+            "p": "nán",
+            "h": "south"
+        },
+        {
+            "c": "京",
+            "p": "jīng",
+            "h": "capital; Beijing (北京); Nanjing (南京)"
+        },
+        {
+            "c": "上",
+            "p": "shàng",
+            "h": "up; above; to attend (class, work); to board a vehicle"
+        },
+        {
+            "c": "海",
+            "p": "hăi",
+            "h": "ocean; Shanghai"
+        },
+        {
+            "c": "地",
+            "p": "dì",
+            "h": "earth; place"
+        },
+        {
+            "c": "方",
+            "p": "fāng",
+            "h": "place"
+        }
+    ],
+    "14": [
+        {
+            "c": "姐",
+            "p": "jiě",
+            "h": "older sister; Miss, young lady(小姐)"
+        },
+        {
+            "c": "同",
+            "p": "tong",
+            "h": "prefix for classmate(同學); together; same"
+        },
+        {
+            "c": "学",
+            "p": "xué",
+            "h": "S to study"
+        },
+        {
+            "c": "先",
+            "p": "xiān",
+            "h": "first; Mr. (先生)"
+        },
+        {
+            "c": "生",
+            "p": "shēng",
+            "h": "to be born; to have children"
+        },
+        {
+            "c": "爱",
+            "p": "ài",
+            "h": "S to love; spouse (愛人)"
+        },
+        {
+            "c": "睡",
+            "p": "shuì",
+            "h": "to sleep"
+        },
+        {
+            "c": "觉",
+            "p": "jiào/jué",
+            "h": "S to sleep （睡覺）; to feel （覺得）"
+        }
+    ],
+    "15": [
+        {
+            "c": "想",
+            "p": "xiăng",
+            "h": "to think; to want to; “would like to”"
+        },
+        {
+            "c": "洗",
+            "p": "xĭ",
+            "h": "to wash"
+        },
+        {
+            "c": "澡",
+            "p": "zăo",
+            "h": "bath; shower (N)"
+        },
+        {
+            "c": "课",
+            "p": "kè",
+            "h": "N, class; MW, lesson"
+        },
+        {
+            "c": "下",
+            "p": "xià",
+            "h": "below, under; to leave (class, work, a vehicle)"
+        },
+        {
+            "c": "班",
+            "p": "bān",
+            "h": "work shift; class group"
+        },
+        {
+            "c": "来",
+            "p": "lái",
+            "h": "S to come"
+        },
+        {
+            "c": "去",
+            "p": "qù",
+            "h": "to go"
+        },
+        {
+            "c": "走",
+            "p": "zŏu",
+            "h": "to leave; to walk (走路)"
+        }
+    ],
+    "16": [
+        {
+            "c": "看",
+            "p": "kàn",
+            "h": "to look; to watch; to read"
+        },
+        {
+            "c": "书",
+            "p": "shū",
+            "h": "S book"
+        },
+        {
+            "c": "报",
+            "p": "bào",
+            "h": "S newspaper"
+        },
+        {
+            "c": "电",
+            "p": "diàn",
+            "h": "S electricity; electric; TV (電視)"
+        },
+        {
+            "c": "视",
+            "p": "shì",
+            "h": "vision; TV (電視)"
+        },
+        {
+            "c": "已",
+            "p": "yĭ",
+            "h": "already (已經)"
+        },
+        {
+            "c": "经",
+            "p": "jīng",
+            "h": "S already (已經); to pass through (經過)"
+        }
+    ],
+    "17": [
+        {
+            "c": "孩",
+            "p": "hái",
+            "h": "child"
+        },
+        {
+            "c": "子",
+            "p": "zi",
+            "h": "child; son"
+        },
+        {
+            "c": "考",
+            "p": "kăo",
+            "h": "to test; to take a test"
+        },
+        {
+            "c": "试",
+            "p": "shì",
+            "h": "test, exam; to try (to do something)"
+        },
+        {
+            "c": "紧",
+            "p": "jĭn",
+            "h": "S tight; tense, nervous (緊張)"
+        },
+        {
+            "c": "得",
+            "p": "de/dé/děi",
+            "h": "to feel (覺得); verb particle; “must”"
+        },
+        {
+            "c": "文",
+            "p": "wén",
+            "h": "language, written language, culture"
+        },
+        {
+            "c": "写",
+            "p": "xiě",
+            "h": "S to write"
+        }
+    ],
+    "18": [
+        {
+            "c": "容",
+            "p": "róng",
+            "h": "easy"
+        },
+        {
+            "c": "易",
+            "p": "yì",
+            "h": "easy"
+        },
+        {
+            "c": "难",
+            "p": "nán",
+            "h": "S difficult"
+        },
+        {
+            "c": "听",
+            "p": "tīng",
+            "h": "S to listen"
+        },
+        {
+            "c": "说",
+            "p": "shuō",
+            "h": "to speak, to talk"
+        },
+        {
+            "c": "话",
+            "p": "huà",
+            "h": "speech; words"
+        },
+        {
+            "c": "只",
+            "p": "zhĭ",
+            "h": "only"
+        },
+        {
+            "c": "外",
+            "p": "wài",
+            "h": "outside; foreign"
+        }
+    ],
+    "19": [
+        {
+            "c": "別",
+            "p": "bié",
+            "h": "neg. command: “don’t”; other"
+        },
+        {
+            "c": "语",
+            "p": "yŭ",
+            "h": "speech; language"
+        },
+        {
+            "c": "里",
+            "p": "lĭ",
+            "h": "S inside, in"
+        },
+        {
+            "c": "汉",
+            "p": "Hàn",
+            "h": "S prefix: Chinese"
+        },
+        {
+            "c": "啊",
+            "p": "a",
+            "h": ""
+        },
+        {
+            "c": "东",
+            "p": "dōng",
+            "h": "S east; thing (東西)"
+        },
+        {
+            "c": "西",
+            "p": "xī",
+            "h": "west; thing （東西）"
+        }
+    ],
+    "20": [
+        {
+            "c": "知",
+            "p": "zhī",
+            "h": "to know (知道)"
+        },
+        {
+            "c": "道",
+            "p": "dào",
+            "h": "route, way; to know"
+        },
+        {
+            "c": "个",
+            "p": "ge",
+            "h": "(gè) S general MW"
+        },
+        {
+            "c": "两",
+            "p": "liăng",
+            "h": "S two (with MWs)"
+        },
+        {
+            "c": "本",
+            "p": "běn",
+            "h": "MW for books"
+        },
+        {
+            "c": "杯",
+            "p": "bēi",
+            "h": "MW for cups/glasses of liquid"
+        },
+        {
+            "c": "喝",
+            "p": "hē",
+            "h": "to drink"
+        },
+        {
+            "c": "水",
+            "p": "shuĭ",
+            "h": "water"
+        }
+    ],
+    "21": [
+        {
+            "c": "茶",
+            "p": "chá",
+            "h": "tea*"
+        },
+        {
+            "c": "位",
+            "p": "wèi",
+            "h": "honorific MW for people (teachers, doctors, e.g.)"
+        },
+        {
+            "c": "几",
+            "p": "jĭ",
+            "h": "S how many (expecting number under 20)"
+        },
+        {
+            "c": "多",
+            "p": "duō",
+            "h": "many; QW suffix for SVs; how many (多少)"
+        },
+        {
+            "c": "少",
+            "p": "shăo",
+            "h": "few; how many (多少)"
+        },
+        {
+            "c": "汽",
+            "p": "qì",
+            "h": "gas; prefix for automobile (汽車)"
+        },
+        {
+            "c": "车",
+            "p": "chē",
+            "h": "S vehicle; car**"
+        },
+        {
+            "c": "辆",
+            "p": "liàng",
+            "h": "MW for wheeled vehicles"
+        }
+    ],
+    "22": [
+        {
+            "c": "房",
+            "p": "fàng",
+            "h": "house"
+        },
+        {
+            "c": "枝",
+            "p": "zhī",
+            "h": "MW for pens, cigarettes"
+        },
+        {
+            "c": "笔",
+            "p": "bĭ",
+            "h": "S pen"
+        },
+        {
+            "c": "脑",
+            "p": "năo",
+            "h": "S brain; computer (電腦)"
+        },
+        {
+            "c": "手",
+            "p": "shŏu",
+            "h": "hand; prefix for cell phone (手機)"
+        },
+        {
+            "c": "机",
+            "p": "jī",
+            "h": "S device; machine"
+        },
+        {
+            "c": "飞",
+            "p": "fēi",
+            "h": "S to fly; prefix for airplane (飛機)"
+        }
+    ],
+    "23": [
+        {
+            "c": "桌",
+            "p": "zhuō",
+            "h": "table"
+        },
+        {
+            "c": "椅",
+            "p": "yĭ",
+            "h": "chair"
+        },
+        {
+            "c": "把",
+            "p": "bă",
+            "h": "MW for chairs; object disposal CV"
+        },
+        {
+            "c": "大",
+            "p": "dà",
+            "h": "big"
+        },
+        {
+            "c": "喜",
+            "p": "xĭ",
+            "h": "to like (喜歡)"
+        },
+        {
+            "c": "欢",
+            "p": "huān",
+            "h": "S to like （喜歡）"
+        },
+        {
+            "c": "雨",
+            "p": "yŭ",
+            "h": "rain"
+        },
+        {
+            "c": "伞",
+            "p": "săn",
+            "h": "S umbrella"
+        }
+    ],
+    "24": [
+        {
+            "c": "忘",
+            "p": "wàng",
+            "h": "to forget"
+        },
+        {
+            "c": "像",
+            "p": "xiàng",
+            "h": "to be similar to; to seem (好像)"
+        },
+        {
+            "c": "晚",
+            "p": "wăn",
+            "h": "late"
+        },
+        {
+            "c": "食",
+            "p": "shí",
+            "h": "food; cafeteria （食堂）"
+        },
+        {
+            "c": "堂",
+            "p": "táng",
+            "h": "hall; cafeteria"
+        },
+        {
+            "c": "家",
+            "p": "jiā",
+            "h": "home; family"
+        },
+        {
+            "c": "比",
+            "p": "bĭ",
+            "h": "comparative CV; “relatively”(比較)"
+        },
+        {
+            "c": "较",
+            "p": "jiào/jiăo",
+            "h": "relatively (比較)"
+        },
+        {
+            "c": "舒",
+            "p": "shū",
+            "h": "comfortable (舒服)"
+        },
+        {
+            "c": "服",
+            "p": "fu/fú",
+            "h": "comfortable (舒服)；clothing (衣服) ; to serve"
+        }
+    ],
+    "25": [
+        {
+            "c": "错",
+            "p": "cuò",
+            "h": "wrong; incorrect*"
+        },
+        {
+            "c": "图",
+            "p": "tú",
+            "h": "S map (地圖) ; library (圖書館)"
+        },
+        {
+            "c": "馆",
+            "p": "guăn",
+            "h": "library (圖書館);restaurant ( 飯館)"
+        },
+        {
+            "c": "校",
+            "p": "xiào",
+            "h": "school (學校)"
+        },
+        {
+            "c": "教",
+            "p": "jiào/jiāo",
+            "h": "to teach; education; prefix for classroom (教室)"
+        },
+        {
+            "c": "室",
+            "p": "shì",
+            "h": "suffix for room; classroom (教室); office (辦公室)"
+        },
+        {
+            "c": "因",
+            "p": "yīn",
+            "h": "because （因為）"
+        },
+        {
+            "c": "为",
+            "p": "wèi",
+            "h": "S because; CV for** (in other contexts, pron. wéi)"
+        },
+        {
+            "c": "所",
+            "p": "suŏ",
+            "h": "therefore; MW for buildings and compounds"
+        }
+    ],
+    "26": [
+        {
+            "c": "非",
+            "p": "fēi",
+            "h": "extremely (非常); classical negative adverb"
+        },
+        {
+            "c": "常",
+            "p": "cháng",
+            "h": "often; extremely (非常)"
+        },
+        {
+            "c": "总",
+            "p": "zŏng",
+            "h": "S always (總是); general"
+        },
+        {
+            "c": "部",
+            "p": "bù",
+            "h": "part"
+        },
+        {
+            "c": "边",
+            "p": "biān",
+            "h": "S side; suffix for position words"
+        },
+        {
+            "c": "离",
+            "p": "lí",
+            "h": "S CV for distance: “from”"
+        },
+        {
+            "c": "远",
+            "p": "yuăn",
+            "h": "S far"
+        }
+    ],
+    "27": [
+        {
+            "c": "从",
+            "p": "cóng",
+            "h": "S CV marking a point of departure"
+        },
+        {
+            "c": "过",
+            "p": "guò",
+            "h": "S experiential aspect particle; to cross, pass"
+        },
+        {
+            "c": "些",
+            "p": "xiē",
+            "h": "general plural MW"
+        },
+        {
+            "c": "爸",
+            "p": "bà",
+            "h": "dad"
+        },
+        {
+            "c": "妈",
+            "p": "mā",
+            "h": "mom"
+        },
+        {
+            "c": "哥",
+            "p": "gē",
+            "h": "older brother"
+        },
+        {
+            "c": "弟",
+            "p": "dì",
+            "h": "younger brother"
+        },
+        {
+            "c": "妹",
+            "p": "mèi",
+            "h": "younger sister"
+        },
+        {
+            "c": "兄",
+            "p": "xiōng",
+            "h": "sibling prefix: older brother"
+        }
+    ]
+}
