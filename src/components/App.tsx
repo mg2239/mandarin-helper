@@ -13,21 +13,19 @@ export default function App() {
   const endLim = Number(sheetRange[sheetRange.length - 1]);
 
   function handleStartChange(e: React.FormEvent<HTMLInputElement>) {
-    setBoundStart(Number(e.currentTarget.value))
+    setBoundStart(Number(e.currentTarget.value));
   }
 
   function handleEndChange(e: React.FormEvent<HTMLInputElement>) {
-    setBoundEnd(Number(e.currentTarget.value))
+    setBoundEnd(Number(e.currentTarget.value));
   }
 
   function handleSubmit(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
-    const numStart = Number(boundStart);
-    const numEnd = Number(boundEnd);
-    if (numStart && numEnd
-      && numStart <= numEnd
-      && numStart >= startLim
-      && numEnd <= endLim) {
+    if (boundStart && boundEnd
+      && boundStart <= boundEnd
+      && boundStart >= startLim
+      && boundEnd <= endLim) {
       setValidBounds(true);
     }
   }
@@ -39,9 +37,9 @@ export default function App() {
         <>
           <p>
             Which character sheets
-              {` (${startLim} - ${endLim}) `}
+            {` (${startLim} - ${endLim}) `}
             would you like to study?
-            </p>
+          </p>
           <p>Enter the same page twice to only study one page.</p>
           <div className="input-group mb-2 mt-2" id="sheet-input">
             <div className="input-group-prepend">

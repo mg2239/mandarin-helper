@@ -3,8 +3,8 @@ import charJSON from '../data.json';
 import Card from './Card';
 
 interface ViewerProps {
-  start: Number,
-  end: Number
+  start: number,
+  end: number
 }
 
 interface CharJSON {
@@ -19,31 +19,29 @@ interface CardData {
 
 export default function CardViewer(props: ViewerProps) {
   const { start, end } = props;
-  const [isGenerated, setIsGenerated] = useState(false);
-  const allCards: JSX.Element[] = [];
+  const [cards, setCards] = useState([] as JSX.Element[]);
 
   useEffect(() => {
-    if (!isGenerated) {
-      for (let i = Number(start); i <= Number(end); i += 1) {
-        (charJSON as CharJSON)[String(i)].forEach((card: CardData) => {
-          allCards.push(
-            <Card
-              key={card.c}
-              char={card.c}
-              pinyin={card.p}
-              hint={card.h}
-              sheet={i}
-            />,
-          );
-        });
-      }
-      setIsGenerated(true);
+    const cardAcc: JSX.Element[] = [];
+    for (let i = start; i <= end; i += 1) {
+      (charJSON as CharJSON)[i].forEach((card: CardData) => {
+        cardAcc.push(
+          <Card
+            key={card.c}
+            char={card.c}
+            pinyin={card.p}
+            hint={card.h}
+            sheet={i}
+          />,
+        );
+      });
     }
-  }, [isGenerated, start, end, allCards]);
+    setCards(cardAcc);
+  }, [start, end, cards]);
 
   return (
     <>
-      {isGenerated && allCards}
+      {cards}
     </>
   );
 }
