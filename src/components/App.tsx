@@ -23,8 +23,8 @@ export default function App() {
   function handleSubmit(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
     if (boundStart && boundEnd
+      && startLim <= boundStart
       && boundStart <= boundEnd
-      && boundStart >= startLim
       && boundEnd <= endLim) {
       setValidBounds(true);
     }

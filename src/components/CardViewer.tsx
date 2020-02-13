@@ -22,21 +22,23 @@ export default function CardViewer(props: ViewerProps) {
   const [cards, setCards] = useState([] as JSX.Element[]);
 
   useEffect(() => {
-    const cardAcc: JSX.Element[] = [];
-    for (let i = start; i <= end; i += 1) {
-      (charJSON as CharJSON)[i].forEach((card: CardData) => {
-        cardAcc.push(
-          <Card
-            key={card.c}
-            char={card.c}
-            pinyin={card.p}
-            hint={card.h}
-            sheet={i}
-          />,
-        );
-      });
+    if (!cards.length) {
+      const cardAcc: JSX.Element[] = [];
+      for (let i = start; i <= end; i += 1) {
+        (charJSON as CharJSON)[i].forEach((card: CardData) => {
+          cardAcc.push(
+            <Card
+              key={card.c}
+              char={card.c}
+              pinyin={card.p}
+              hint={card.h}
+              sheet={i}
+            />,
+          );
+        });
+      }
+      setCards(cardAcc);
     }
-    setCards(cardAcc);
   }, [start, end, cards]);
 
   return (
