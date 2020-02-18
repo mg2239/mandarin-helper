@@ -1,25 +1,43 @@
 import React from 'react';
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
+import '../css/Card.css';
 
 interface Card {
   char: string,
   pinyin: string,
-  sheet: number,
   hint: string,
 }
 
 export default function Card(props: Card) {
   const {
-    char, pinyin, sheet, hint,
+    char, pinyin,
   } = props;
+  let { hint } = props;
 
-  hint.replace(char, '?');
+  hint = hint.replace(new RegExp(char, 'g'), '?');
 
   return (
-    <div>
-      <h2>{`Character Sheet ${sheet}`}</h2>
-      <p>{char}</p>
-      <p>{pinyin}</p>
-      <p>{hint}</p>
-    </div>
+    <>
+      <p className="hint">
+        Hint:
+        {` ${hint}`}
+      </p>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <Flippy
+          flipOnHover={false}
+          flipOnClick
+          flipDirection="horizontal"
+          style={{ width: '400px', height: '200px', marginBottom: '16px' }}
+        >
+          <FrontSide>
+            <p className="pinyin">{pinyin}</p>
+          </FrontSide>
+          <BackSide>
+            <p className="char">{char}</p>
+          </BackSide>
+        </Flippy>
+      </div>
+      <hr style={{ width: '400px', borderColor: '#cccccc' }} />
+    </>
   );
 }

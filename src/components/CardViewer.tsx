@@ -1,3 +1,4 @@
+/* eslint-disable no-loop-func */
 import React, { useState, useEffect } from 'react';
 import charJSON from '../data.json';
 import Card from './Card';
@@ -23,16 +24,20 @@ export default function CardViewer(props: ViewerProps) {
 
   useEffect(() => {
     if (!cards.length) {
+      let sheetCounter = 1;
       const cardAcc: JSX.Element[] = [];
       for (let i = start; i <= end; i += 1) {
         (charJSON as CharJSON)[i].forEach((card: CardData) => {
+          if (i === sheetCounter) {
+            cardAcc.push(<h2>{`Character Sheet ${sheetCounter}`}</h2>);
+            sheetCounter += 1;
+          }
           cardAcc.push(
             <Card
               key={card.c}
               char={card.c}
               pinyin={card.p}
               hint={card.h}
-              sheet={i}
             />,
           );
         });

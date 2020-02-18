@@ -1187,5 +1187,272 @@
             "p": "xiōng",
             "h": "sibling prefix: older brother"
         }
+    ],
+    "28": [
+        {
+            "c": "父",
+            "p": "fù",
+            "h": "father"
+        },
+        {
+            "c": "母",
+            "p": "mŭ",
+            "h": "mother"
+        },
+        {
+            "c": "亲",
+            "p": "qīn",
+            "h": "S suffix for father and mother; relative"
+        },
+        {
+            "c": "女",
+            "p": "nǚ",
+            "h": "female"
+        },
+        {
+            "c": "男",
+            "p": "nán",
+            "h": "male"
+        },
+        {
+            "c": "岁",
+            "p": "suì",
+            "h": "S MW for years of age"
+        },
+        {
+            "c": "和",
+            "p": "hé",
+            "h": "and; with"
+        },
+        {
+            "c": "进",
+            "p": "jìn",
+            "h": "S to enter"
+        }
+    ],
+    "29": [
+        {
+            "c": "坐",
+            "p": "zuò",
+            "h": "to sit"
+        },
+        {
+            "c": "用",
+            "p": "yòng",
+            "h": "to use; CV for utensils: “with”"
+        },
+        {
+            "c": "客",
+            "p": "kè",
+            "h": "guest"
+        },
+        {
+            "c": "随",
+            "p": "suí",
+            "h": "S to follow; casual (隨便)"
+        },
+        {
+            "c": "便",
+            "p": "biàn/pián",
+            "h": "convenient (方便); casual (隨便); cheap (便宜)"
+        },
+        {
+            "c": "就",
+            "p": "jiù",
+            "h": "then; indeed (就是); ADV indicating earliness"
+        },
+        {
+            "c": "酒",
+            "p": "jiŭ",
+            "h": "alcohol; wine"
+        },
+        {
+            "c": "红",
+            "p": "hóng",
+            "h": "red"
+        },
+        {
+            "c": "绿",
+            "p": "lǜ",
+            "h": "S green"
+        }
+    ],
+    "30": [
+        {
+            "c": "味",
+            "p": "wèi",
+            "h": "flavor; smell (味道)"
+        },
+        {
+            "c": "香",
+            "p": "xiāng",
+            "h": "fragrant"
+        },
+        {
+            "c": "做",
+            "p": "zuò",
+            "h": "to make; to do"
+        },
+        {
+            "c": "菜",
+            "p": "cài",
+            "h": "food; dishes; vegetables"
+        },
+        {
+            "c": "钱",
+            "p": "qián",
+            "h": "S money"
+        },
+        {
+            "c": "包",
+            "p": "bāo",
+            "h": "bag; package; wallet (錢包)"
+        },
+        {
+            "c": "块",
+            "p": "kuài",
+            "h": "S MW for dollars; MW for pieces of…"
+        },
+        {
+            "c": "毛",
+            "p": "máo",
+            "h": "MW for dimes; surname; fur"
+        }
+    ],
+    "31": [
+        {
+            "c": "分",
+            "p": "fēn",
+            "h": "MW for cents; MW for minutes"
+        },
+        {
+            "c": "找",
+            "p": "zhăo",
+            "h": "to give in change; to look for"
+        },
+        {
+            "c": "斤",
+            "p": "jìn",
+            "h": "catty (unit of weight)"
+        },
+        {
+            "c": "橘",
+            "p": "jú",
+            "h": "tangerine; mandarin orange"
+        },
+        {
+            "c": "瓜",
+            "p": "guā",
+            "h": "melon; 西瓜=watermelon"
+        },
+        {
+            "c": "要",
+            "p": "yào",
+            "h": "to want; must; MV for future"
+        },
+        {
+            "c": "民",
+            "p": "mín",
+            "h": "the people (人民)"
+        },
+        {
+            "c": "币",
+            "p": "bì",
+            "h": "S currency"
+        },
+        {
+            "c": "元",
+            "p": "yuán",
+            "h": "formal MW for dollars"
+        },
+        {
+            "c": "角",
+            "p": "jiăo",
+            "h": "formal MW for dimes"
+        }
+    ],
+    "32": [
+        {
+            "c": "衣",
+            "p": "yī",
+            "h": "clothing (衣服)；sweater(毛衣); coat(大衣)"
+        },
+        {
+            "c": "粉",
+            "p": "fěn",
+            "h": "powder; pink (粉紅)"
+        },
+        {
+            "c": "种",
+            "p": "zhŏng",
+            "h": "S MW for type/kind"
+        },
+        {
+            "c": "牛",
+            "p": "niú",
+            "h": "cow; beef"
+        },
+        {
+            "c": "肉",
+            "p": "ròu",
+            "h": "meat (often signifies pork)"
+        },
+        {
+            "c": "鸡",
+            "p": "jī",
+            "h": "S chicken"
+        },
+        {
+            "c": "汤",
+            "p": "tāng",
+            "h": "S soup"
+        }
+    ],
+    "33": [
+        {
+            "c": "面",
+            "p": "miàn",
+            "h": "S noodles; wheat flour"
+        },
+        {
+            "c": "条",
+            "p": "tiáo",
+            "h": "S MW for roads, rivers; noodles (麵條)"
+        },
+        {
+            "c": "米",
+            "p": "mĭ",
+            "h": "uncooked rice; cooked rice (米飯)"
+        },
+        {
+            "c": "青",
+            "p": "qīng",
+            "h": "blue/green"
+        },
+        {
+            "c": "鱼",
+            "p": "yú",
+            "h": "fish"
+        },
+        {
+            "c": "豆",
+            "p": "dòu",
+            "h": "bean; beancurd (豆腐)"
+        },
+        {
+            "c": "腐",
+            "p": "fŭ",
+            "h": "rotten; beancurd （豆腐）"
+        },
+        {
+            "c": "蛋",
+            "p": "dàn",
+            "h": "egg"
+        },
+        {
+            "c": "碗",
+            "p": "wăn",
+            "h": "bowl; MW for bowls of food"
+        }
     ]
 }

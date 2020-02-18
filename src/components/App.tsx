@@ -20,7 +20,7 @@ export default function App() {
     setBoundEnd(Number(e.currentTarget.value));
   }
 
-  function handleSubmit(e: React.MouseEvent<HTMLButtonElement>) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (boundStart && boundEnd
       && startLim <= boundStart
@@ -32,7 +32,9 @@ export default function App() {
 
   return (
     <div className="container" style={{ textAlign: 'center' }}>
-      <a href="/"><h1 style={{ display: 'inline-block' }}>Mandarin Helper</h1></a>
+      <a href="/">
+        <h1 style={{ display: 'inline-block', marginBottom: '16px' }}>Mandarin Helper</h1>
+      </a>
       {!validBounds && (
         <>
           <p>
@@ -41,29 +43,31 @@ export default function App() {
             would you like to study?
           </p>
           <p>Enter the same page twice to only study one page.</p>
-          <div className="input-group mb-2 mt-2" id="sheet-input">
-            <div className="input-group-prepend">
-              <span className="input-group-text" id="basic-addon1">Sheet</span>
+          <form onSubmit={handleSubmit}>
+            <div className="input-group mb-2 mt-2" id="sheet-input">
+              <div className="input-group-prepend">
+                <span className="input-group-text" id="basic-addon1">Sheet</span>
+              </div>
+              <input
+                type="text"
+                onChange={handleStartChange}
+                className="form-control"
+                aria-describedby="basic-addon1"
+              />
+              <div className="input-group-prepend">
+                <span className="input-group-text" id="basic-addon2">to</span>
+              </div>
+              <input
+                type="text"
+                onChange={handleEndChange}
+                className="form-control"
+                aria-describedby="basic-addon2"
+              />
+              <div className="input-group-append" id="button-addon1">
+                <button className="btn btn-outline-secondary" type="submit">Submit</button>
+              </div>
             </div>
-            <input
-              type="text"
-              onChange={handleStartChange}
-              className="form-control"
-              aria-describedby="basic-addon1"
-            />
-            <div className="input-group-prepend">
-              <span className="input-group-text" id="basic-addon2">to</span>
-            </div>
-            <input
-              type="text"
-              onChange={handleEndChange}
-              className="form-control"
-              aria-describedby="basic-addon2"
-            />
-            <div className="input-group-append" id="button-addon1">
-              <button className="btn btn-outline-secondary" onClick={handleSubmit} type="button">Submit</button>
-            </div>
-          </div>
+          </form>
         </>
       )}
       {validBounds && (
