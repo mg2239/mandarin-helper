@@ -27,7 +27,7 @@ export default function Card(props: Card) {
           flipOnHover={false}
           flipOnClick
           flipDirection="horizontal"
-          style={{ width: '400px', height: '200px', marginBottom: '16px' }}
+          style={{ width: '500px', height: '300px', marginBottom: '16px' }}
         >
           <FrontSide>
             <p className="pinyin">{pinyin}</p>

@@ -24,7 +24,7 @@ export default function CardViewer(props: ViewerProps) {
 
   useEffect(() => {
     if (!cards.length) {
-      let sheetCounter = 1;
+      let sheetCounter = start;
       const cardAcc: JSX.Element[] = [];
       for (let i = start; i <= end; i += 1) {
         (charJSON as CharJSON)[i].forEach((card: CardData) => {
