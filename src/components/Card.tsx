@@ -1,5 +1,4 @@
 import React from 'react';
-import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import '../css/Card.css';
 
 interface Card {
@@ -22,20 +21,15 @@ export default function Card(props: Card) {
         Hint:
         {` ${hint}`}
       </p>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <Flippy
-          flipOnHover={false}
-          flipOnClick
-          flipDirection="horizontal"
-          style={{ width: '500px', height: '300px', marginBottom: '16px' }}
-        >
-          <FrontSide>
-            <p className="pinyin">{pinyin}</p>
-          </FrontSide>
-          <BackSide>
-            <p className="char">{char}</p>
-          </BackSide>
-        </Flippy>
+      <div className="card-container">
+        <div className="flashcard">
+          <div className="card-face front">
+            <p className="card-text">{pinyin}</p>
+          </div>
+          <div className="card-face back">
+            <p className="card-text">{char}</p>
+          </div>
+        </div>
       </div>
       <hr style={{ width: '400px', borderColor: '#cccccc' }} />
     </>

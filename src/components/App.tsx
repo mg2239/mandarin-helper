@@ -20,7 +20,7 @@ export default function App() {
     setBoundEnd(Number(e.currentTarget.value));
   }
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (boundStart && boundEnd
       && startLim <= boundStart
@@ -43,7 +43,7 @@ export default function App() {
             would you like to study?
           </p>
           <p>Enter the same page twice to only study one page.</p>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={onSubmit}>
             <div className="input-group mb-2 mt-2" id="sheet-input">
               <div className="input-group-prepend">
                 <span className="input-group-text" id="basic-addon1">Sheet</span>
