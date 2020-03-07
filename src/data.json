@@ -1454,5 +1454,272 @@
             "p": "wăn",
             "h": "bowl; MW for bowls of food"
         }
+    ],
+    "34": [
+        {
+            "c": "酸",
+            "p": "suān",
+            "h": "sour"
+        },
+        {
+            "c": "辣",
+            "p": "là",
+            "h": "spicy hot"
+        },
+        {
+            "c": "冰",
+            "p": "bīng",
+            "h": "ice; frozen"
+        },
+        {
+            "c": "火",
+            "p": "huŏ",
+            "h": "fire"
+        },
+        {
+            "c": "炒",
+            "p": "chăo",
+            "h": "to stir-fry"
+        },
+        {
+            "c": "专",
+            "p": "zhuān",
+            "h": "S specialization, major (專業)"
+        },
+        {
+            "c": "业",
+            "p": "yè",
+            "h": "S major (專業); to graduate(畢業); homework (作業)"
+        },
+        {
+            "c": "系",
+            "p": "xì",
+            "h": "academic department"
+        }
+    ],
+    "35": [
+        {
+            "c": "数",
+            "p": "shù",
+            "h": "S numbers; mathematics; to count (shŭ)"
+        },
+        {
+            "c": "历",
+            "p": "lì",
+            "h": "S history (歷史)"
+        },
+        {
+            "c": "史",
+            "p": "shĭ",
+            "h": "history (歷史)"
+        },
+        {
+            "c": "济",
+            "p": "jì",
+            "h": "S economics (經濟)"
+        },
+        {
+            "c": "物",
+            "p": "wù",
+            "h": "things; biology (生物)"
+        },
+        {
+            "c": "化",
+            "p": "huà",
+            "h": "culture (文化) ; chemistry (化學)"
+        },
+        {
+            "c": "门",
+            "p": "mén",
+            "h": "door; MW for courses"
+        }
+    ],
+    "36": [
+        {
+            "c": "共",
+            "p": "gòng",
+            "h": "altogether ( 一共) ; public (公共)"
+        },
+        {
+            "c": "节",
+            "p": "jié",
+            "h": "S MW for class periods; holiday (節日)"
+        },
+        {
+            "c": "当",
+            "p": "dāng",
+            "h": "S to work as; of course (當然)"
+        },
+        {
+            "c": "然",
+            "p": "rán",
+            "h": "adverbial suffix"
+        },
+        {
+            "c": "作",
+            "p": "zuò",
+            "h": "work (工作); homework (作業)"
+        },
+        {
+            "c": "周",
+            "p": "zhōu",
+            "h": "week (in written Chinese); weekend (週末)"
+        },
+        {
+            "c": "末",
+            "p": "mò",
+            "h": "end of a time period; weekend (週末)"
+        },
+        {
+            "c": "钟",
+            "p": "zhōng",
+            "h": "S clock; o’clock"
+        }
+    ],
+    "37": [
+        {
+            "c": "差",
+            "p": "chà",
+            "h": "lacking; about, almost (差不多)"
+        },
+        {
+            "c": "半",
+            "p": "bàn",
+            "h": "half"
+        },
+        {
+            "c": "概",
+            "p": "gài",
+            "h": "about; probably (大概)"
+        },
+        {
+            "c": "时",
+            "p": "shí",
+            "h": "S time (時間；時候); hour (小時)"
+        },
+        {
+            "c": "候",
+            "p": "hòu",
+            "h": "time (時候)"
+        },
+        {
+            "c": "平",
+            "p": "píng",
+            "h": "usually (平常); peace (平安)"
+        },
+        {
+            "c": "午",
+            "p": "wŭ",
+            "h": "a.m. (上午); p.m. (下午); noon (中午)"
+        },
+        {
+            "c": "间",
+            "p": "jiān",
+            "h": "time/space suffix (時間；房間 )"
+        },
+        {
+            "c": "打",
+            "p": "dă",
+            "h": "to hit; to phone (打電話); to play ball (打球)"
+        },
+        {
+            "c": "球",
+            "p": "qiú",
+            "h": "ball"
+        }
+    ],
+    "38": [
+        {
+            "c": "买",
+            "p": "mǎi",
+            "h": "S to buy"
+        },
+        {
+            "c": "件",
+            "p": "jiàn",
+            "h": "MW for clothing; MW for matters"
+        },
+        {
+            "c": "定",
+            "p": "dìng",
+            "h": "to set; to decide (; definite(ly) (一定)"
+        },
+        {
+            "c": "穿",
+            "p": "chuān",
+            "h": "to wear (most clothing)"
+        },
+        {
+            "c": "顿",
+            "p": "dùn",
+            "h": "MW for meals"
+        },
+        {
+            "c": "送",
+            "p": "sòng",
+            "h": "to give as a present"
+        },
+        {
+            "c": "糕",
+            "p": "gāo",
+            "h": "cake"
+        },
+        {
+            "c": "卖",
+            "p": "mài",
+            "h": "S to sell"
+        }
+    ],
+    "39": [
+        {
+            "c": "表",
+            "p": "biăo",
+            "h": "S wristwatch"
+        },
+        {
+            "c": "金",
+            "p": "jīn",
+            "h": "gold"
+        },
+        {
+            "c": "百",
+            "p": "băi",
+            "h": "hundred"
+        },
+        {
+            "c": "宜",
+            "p": "yí",
+            "h": "cheap (便宜)"
+        },
+        {
+            "c": "黑",
+            "p": "hēi",
+            "h": "black"
+        },
+        {
+            "c": "白",
+            "p": "bái",
+            "h": "white"
+        },
+        {
+            "c": "黃",
+            "p": "huáng",
+            "h": "yellow"
+        },
+        {
+            "c": "银",
+            "p": "yín",
+            "h": "silver; bank (銀行)"
+        },
+        {
+            "c": "色",
+            "p": "sè",
+            "h": "color; suffix for color words"
+        },
+        {
+            "c": "工",
+            "p": "gōng",
+            "h": "work (工作)"
+        }
     ]
 }

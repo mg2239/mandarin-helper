@@ -33,7 +33,7 @@ export default function App() {
   return (
     <div className="container" style={{ textAlign: 'center' }}>
       <a href="/">
-        <h1 style={{ display: 'inline-block', marginBottom: '16px' }}>Mandarin Helper</h1>
+        <h1 style={{ display: 'inline-block', marginBottom: '16px' }}>CHIN 1101/1102 Flashcards</h1>
       </a>
       {!validBounds && (
         <>

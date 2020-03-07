@@ -1,4 +1,6 @@
-import React from 'react';
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+import React, { useState } from 'react';
 import '../css/Card.css';
 
 interface Card {
@@ -13,6 +15,8 @@ export default function Card(props: Card) {
   } = props;
   let { hint } = props;
 
+  const [clicked, setClicked] = useState(false);
+
   hint = hint.replace(new RegExp(char, 'g'), '?');
 
   return (
@@ -22,7 +26,10 @@ export default function Card(props: Card) {
         {` ${hint}`}
       </p>
       <div className="card-container">
-        <div className="flashcard">
+        <div
+          className={`flashcard${clicked ? ' flipped' : ''}`}
+          onClick={() => setClicked(!clicked)}
+        >
           <div className="card-face front">
             <p className="card-text">{pinyin}</p>
           </div>
