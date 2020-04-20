@@ -38,7 +38,7 @@ export default function Card(props: Card) {
           </div>
         </div>
       </div>
-      <hr style={{ width: '400px', borderColor: '#cccccc' }} />
+      <hr style={{ width: '40%', borderColor: '#cccccc' }} />
     </>
   );
 }
