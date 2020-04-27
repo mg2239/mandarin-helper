@@ -1721,5 +1721,131 @@
             "p": "gōng",
             "h": "work "
         }
+    ],
+    "40": [
+        {
+            "c": "毕",
+            "p": "bì",
+            "h": "to graduate"
+        },
+        {
+            "c": "开",
+            "p": "kāi",
+            "h": "to open; to drive; to start"
+        },
+        {
+            "c": "始",
+            "p": "shĭ",
+            "h": "to start"
+        },
+        {
+            "c": "读",
+            "p": "dú",
+            "h": "to study"
+        },
+        {
+            "c": "理",
+            "p": "lĭ",
+            "h": "principle; manager; reason"
+        },
+        {
+            "c": "公",
+            "p": "gong",
+            "h": "public; company"
+        },
+        {
+            "c": "司",
+            "p": "sī",
+            "h": "company"
+        }
+    ],
+    "41": [
+        {
+            "c": "到",
+            "p": "dào",
+            "h": "to arrive; CV for destinations"
+        },
+        {
+            "c": "习",
+            "h": "to study; to practice",
+            "p": "xí"
+        },
+        {
+            "c": "商",
+            "p": "shāng",
+            "h": "store; commerce"
+        },
+        {
+            "c": "店",
+            "p": "diàn",
+            "h": "store"
+        },
+        {
+            "c": "务",
+            "p": "wù",
+            "h": "service; to serve; commerce"
+        },
+        {
+            "c": "员",
+            "p": "yuán",
+            "h": "personnel; suffix for certain careers"
+        },
+        {
+            "c": "医",
+            "p": "yī",
+            "h": "medicine; doctor; hospital"
+        },
+        {
+            "c": "院",
+            "p": "yuàn",
+            "h": "hospital; courtyard"
+        }
+    ],
+    "42": [
+        {
+            "c": "律",
+            "p": "lǜ",
+            "h": "law; lawyer"
+        },
+        {
+            "c": "算",
+            "p": "suàn",
+            "h": "to plan; to calculate"
+        },
+        {
+            "c": "后",
+            "p": "hòu",
+            "h": "in back of; after"
+        },
+        {
+            "c": "決",
+            "p": "jué",
+            "h": "to decide"
+        },
+        {
+            "c": "许",
+            "p": "xŭ",
+            "h": "perhaps; surname"
+        },
+        {
+            "c": "但",
+            "p": "dàn",
+            "h": "but; only"
+        },
+        {
+            "c": "搞",
+            "p": "găo",
+            "h": "to engage in (a field)"
+        },
+        {
+            "c": "意",
+            "p": "yì",
+            "h": "meaning"
+        },
+        {
+            "c": "思",
+            "p": "sī",
+            "h": "meaning; thought"
+        }
     ]
 }
