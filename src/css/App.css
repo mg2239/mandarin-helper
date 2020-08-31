@@ -13,7 +13,7 @@ p {
 }
 
 #title {
-  display: block;
+  display: inline-block;
   color: black;
   font-size: 3rem;
   transition: 0.2s color linear;
