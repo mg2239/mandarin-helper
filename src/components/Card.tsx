@@ -1,44 +1,45 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from 'react';
 import '../css/Card.css';
 
-interface Card {
-  char: string,
-  pinyin: string,
-  hint: string,
-}
+type Card = {
+  char: string;
+  pinyin: string;
+  hint: string;
+  pinyinFirst: boolean;
+  showHints: boolean;
+};
 
-export default function Card(props: Card) {
-  const {
-    char, pinyin,
-  } = props;
-  let { hint } = props;
-
+export default function Card({
+  char,
+  pinyin,
+  hint,
+  pinyinFirst,
+  showHints,
+}: Card) {
   const [clicked, setClicked] = useState(false);
-
-  hint = hint.replace(new RegExp(char, 'g'), '?');
 
   return (
     <>
-      <p className="hint">
-        Hint:
-        {` ${hint}`}
-      </p>
+      {showHints && (
+        <p className="hint">
+          Hint:
+          {` ${hint}`}
+        </p>
+      )}
       <div className="card-container">
         <div
           className={`flashcard${clicked ? ' flipped' : ''}`}
           onClick={() => setClicked(!clicked)}
         >
           <div className="card-face front">
-            <p className="card-text">{pinyin}</p>
+            <p className="card-text">{pinyinFirst ? pinyin : char}</p>
           </div>
           <div className="card-face back">
-            <p className="card-text">{char}</p>
+            <p className="card-text">{pinyinFirst ? char : pinyin}</p>
           </div>
         </div>
       </div>
-      <hr style={{ width: '40%', borderColor: '#cccccc' }} />
+      <span className="divider" />
     </>
   );
 }

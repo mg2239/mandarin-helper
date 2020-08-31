@@ -1,25 +1,16 @@
 /* eslint-disable no-loop-func */
 import React, { useState, useEffect } from 'react';
-import charJSON from '../data.json';
+import { Header } from 'semantic-ui-react';
+import data from '../data';
 import Card from './Card';
+import { GeneratorProps } from '../types';
 
-interface ViewerProps {
-  start: number,
-  end: number
-}
-
-interface CharJSON {
-  [sheet: string]: CardData[]
-}
-
-interface CardData {
-  c: string,
-  p: string,
-  h: string,
-}
-
-export default function CardViewer(props: ViewerProps) {
-  const { start, end } = props;
+export default function CardViewer({
+  start,
+  end,
+  pinyin,
+  hints,
+}: GeneratorProps) {
   const [cards, setCards] = useState([] as JSX.Element[]);
 
   useEffect(() => {
@@ -27,9 +18,13 @@ export default function CardViewer(props: ViewerProps) {
       let sheetCounter = start;
       const cardAcc: JSX.Element[] = [];
       for (let i = start; i <= end; i += 1) {
-        (charJSON as CharJSON)[i].forEach((card: CardData) => {
+        data[i].forEach((card) => {
           if (i === sheetCounter) {
-            cardAcc.push(<h2>{`Character Sheet ${sheetCounter}`}</h2>);
+            cardAcc.push(
+              <Header as="h1" key={sheetCounter}>
+                {`Character Sheet ${sheetCounter}`}
+              </Header>,
+            );
             sheetCounter += 1;
           }
           cardAcc.push(
@@ -38,17 +33,15 @@ export default function CardViewer(props: ViewerProps) {
               char={card.c}
               pinyin={card.p}
               hint={card.h}
+              pinyinFirst={pinyin}
+              showHints={hints}
             />,
           );
         });
       }
       setCards(cardAcc);
     }
-  }, [start, end, cards]);
+  }, [start, end, cards, pinyin, hints]);
 
-  return (
-    <>
-      {cards}
-    </>
-  );
+  return <>{cards}</>;
 }

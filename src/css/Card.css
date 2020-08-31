@@ -26,15 +26,24 @@
 }
 
 .card-face {
-  display: table; 
+  display: table;
   position: absolute;
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
 }
 
-.back, .flipped {
+.back,
+.flipped {
   transform: rotateY(180deg);
+}
+
+.divider {
+  display: block;
+  height: 1px;
+  width: 40%;
+  margin: 1rem auto;
+  background-color: #cccccc;
 }
 
 @media (max-width: 550px) {
