@@ -38,7 +38,7 @@ export default function Quizlet({ start, end, pinyin, hints }: GeneratorProps) {
       {text && (
         <div className="quizlet-container">
           <Form>
-            <TextArea disabled rows="30">
+            <TextArea disabled rows="20">
               {text}
             </TextArea>
           </Form>
